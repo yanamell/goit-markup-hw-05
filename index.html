@@ -386,10 +386,8 @@
             <div class="footer-bottom">
                 <p class="footer-title">Subscribe</p>
                 <form class="footer-form">
-                    <div class="footer-input-wrap">
-                        <label for="footer-email" class="footer-label"></label>
-                        <input type="email" name="footer-email" id="footer-email" class="footer-input" placeholder="E-mail" />
-                    </div>
+                    <label for="footer-email" class="footer-label"></label> 
+                    <input type="email" name="footer-email" id="footer-email" class="footer-input" placeholder="E-mail" />
                     <button type="submit" class="footer-form-btn">
                         Subscribe
                         <svg class="icon-telegram" width="24" height="24">
@@ -436,15 +434,15 @@
                         </svg>
                     </div>
                 </div>
-                <div class="modal-field">
-                    <label for="user-comment" class="input-label">Coment</label>
+                <div class="modal-field-comment">
+                    <label for="user-comment" class="input-label">Comment</label>
                     <textarea name="user-comment" id="user-comment" class="modal-textarea"
                         placeholder="Text input"></textarea>
                     </div>
                     <div class="modal-field-check">
-                        <input type="checkbox" name="user-privacy" id="user-terms" class="modal-check visually-hidden" value="true">
-                        <label for="user-terms" class="check-text">
-                            <span>
+                        <input type="checkbox" name="user-privacy" id="user-privacy" class="modal-check visually-hidden" value="true">
+                        <label for="user-privacy" class="check-text">
+                            <span class="label-span">
                                 <svg class="check-icon" width="10" height="8">
                                     <use href="./images/icons.svg#icon-checkmark"></use>
                                 </svg>
