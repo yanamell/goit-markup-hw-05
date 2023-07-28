@@ -924,11 +924,11 @@ color: #FFF;
 }
 
 .modal-field-check {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .modal-check {
-    margin-bottom: 24px;
+   
 }
 
 .check-text {
@@ -941,8 +941,9 @@ color: #FFF;
 
 }
 
-.check-text span {
-    
+
+.label-span {
+display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
@@ -952,10 +953,6 @@ color: #FFF;
     margin-right: 8px;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.label-span {
-display: inline-flex;
 }
 
 .check-icon {}
